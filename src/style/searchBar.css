@@ -1,0 +1,33 @@
+@import "constant.css";
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+}
+
+.search input{
+    width:320px;
+    height:25px;
+    border:none;
+    padding:5px;
+    box-sizing:border;
+    box-shadow: 0px 0px 2px 2px var(--dark-grey);
+}
+
+.search input:focus{
+    outline:none;
+}
+
+.search button{
+    height:36px;
+    background: var(--blue);
+    border:none;
+    box-shadow: 0px 0px 2px 2px var(--dark-grey);
+    opacity:0.85;
+}
+
+.search button:hover{
+    opacity:1;
+    cursor:pointer;
+}

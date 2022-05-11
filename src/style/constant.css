@@ -1,0 +1,20 @@
+:root{
+    --grey: #f6f6f4;
+    --dark-grey: #CCCCC4;
+    --blue: #18A2FF;
+}
+
+body{
+    width:80%; 
+    margin:auto;
+    background: var(--grey);
+}
+
+body h1{
+    text-align:center;
+    color: var(--blue);
+}
+
+.empty{
+    text-align:center;
+}
